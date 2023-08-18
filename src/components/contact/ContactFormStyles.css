@@ -1,0 +1,96 @@
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #B0304E;
+    color: #E3E8F7;
+}
+
+.right h1,.left h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.left{
+    width: 50%;
+    text-align: center;
+    margin: 50px 10px;
+}
+
+.left ul{
+    margin-top: 10px;
+}
+
+.left ul li{
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.left ul .icon{
+    text-align: center;
+}
+
+.right{
+    width: 50%;
+    background: rgba(0, 0, 0, 0.6) url(../../assets/contactMap.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.right form{
+    margin-left: 50px;
+}
+
+.right input{
+    width: 90%;
+    height: 50px;
+    margin: 10px auto;    
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.right textarea{
+    width: 90%;
+    height: 50px;
+    margin: 10px auto; 
+    border-radius: 10px; 
+    padding-left: 10px; 
+    padding-top: 5px; 
+}
+
+.right button{
+    margin: 10px auto;    
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #B0304E;
+    color: #E3E8F7;
+}
+
+.right button:hover{
+    color: #B0304E;
+    background-color: #E3E8F7;
+}
+
+@media screen and (max-width: 768px) {
+    .right h1,.left h1{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contact-form{
+        flex-direction: column;
+    }
+    .right{
+        width: 100%;
+    }
+}

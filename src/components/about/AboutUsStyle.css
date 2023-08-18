@@ -1,0 +1,55 @@
+.about h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3450AD;
+    margin: 20px auto;
+}
+
+.about-logo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 47%;
+}
+
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.about-us .about-left, .about-us .about-right{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.about-left h2, .about-right h2{
+    color: #3450AD;
+}
+
+.about-left p, .about-right p{
+    color: #B0304E;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+@media screen and (max-width:768px) {
+    .about-us{
+        flex-direction: column;
+    }
+    .about-us .about-left, .about-us .about-right{
+        width: 80%;
+        margin-left: 20px;
+    }
+    .about-right{
+        margin-top: 50px;
+    }
+    .about-left h2, .about-right h2{
+        text-align: center;
+    }
+    .about-logo{
+        left: 40%;
+    }
+}

@@ -1,0 +1,34 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6) url(../../assets/heroTwo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.header-content{
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+.header-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #E3E8F7;
+}
+
+.header-content p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #E3E8F7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.header-content a{
+    color: #E3E8F7;
+}

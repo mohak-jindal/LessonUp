@@ -1,0 +1,36 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8) url(../../assets/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #E3E8F7;
+}
+
+.hero-content{
+    position: relative;
+    top: 40vh;
+}
+
+.hero-content h1{
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.hero-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero-content p{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #B0304E;
+}

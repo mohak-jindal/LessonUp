@@ -1,0 +1,35 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.box a{
+    color: #E3E8F7;
+}
+
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: #3450AD;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.item:hover{
+    background-color: #B0304E;
+}
+.item h3{
+    position: relative;
+    top: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .box{
+        flex-direction: column;
+    }
+    .item{
+        margin: 10px auto;   
+    }
+}

@@ -1,0 +1,79 @@
+.carousel{
+    height: 500px;
+    padding: 5rem;
+    background-color: #3450AD;
+}
+
+.carousel h1{
+    text-align: center;
+    font-size: 28px;
+    color: #E3E8F7;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+.card-1{
+    background-image: url(../../assets/accounts.jpg);
+}
+
+.card-2{
+    background-image: url(../../assets/business.jpg);
+}
+
+.card-3{
+    background-image: url(../../assets/economics.jpg);
+}
+
+.card-4{
+    background-image: url(../../assets/maths.jpg);
+}
+
+.card-5{
+    background-image: url(../../assets/science.jpg);
+}
+
+.card-6{
+    background-image: url(../../assets/college.jpg);
+}
+
+.card-7{
+    background-image: url(../../assets/ca.jpg);
+}
+
+.card-8{
+    background-image: url(../../assets/competitive.jpg);
+}
+.card p{
+    position: relative;
+    top: 260px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E3E8F7;
+    background-color: #3450AD;
+    transition: 3s ease;
+}
+
+.card:hover{
+    transform: translate(10px, -10px);
+}
+
+.slick-slide div{
+    margin: 10px;
+}
+
+.slick-next{
+    right: -40px !important;
+}
+
+.slick-dots li.slick-active::before{
+    color: #E3E8F7;
+}
